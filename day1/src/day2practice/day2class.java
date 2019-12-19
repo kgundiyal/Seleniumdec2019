@@ -11,7 +11,7 @@ public class day2class
 	public static void main(String args[])
 	{
 		// ****** Starting Chrome Driver ********
-		
+		/*
 	       System.setProperty("webdriver.chrome.driver", "C:\\Users\\kgundiyal\\Documents\\Selenium\\chromedriver.exe");
 		   WebDriver driver=new ChromeDriver();
 		   driver.get("http://google.com");
@@ -19,7 +19,7 @@ public class day2class
 		   System.out.println(sitetitle);
 	   	   System.out.println("Hello!" +" " +  sitetitle);
 	   	   driver.close();
-	   	
+	   	*/
 	   	
 	   	// ***** Starting Firefox Driver ****** 
 	   	
@@ -51,15 +51,15 @@ public class day2class
 		
 		
 		// ***** Starting IE Driver *****
-		/*
-		 System.setProperty("webdriver.ie.driver", "C:\\Users\\kgundiyal\\Documents\\Selenium\\IEDriverServer.exe");
+		
+		 System.setProperty("webdriver.ie.driver", "C:\\Users\\kgundiyal\\Documents\\Selenium\\IEDriverServer_1.exe");
 		 WebDriver driver=new InternetExplorerDriver();
 		 driver.get("http://google.com");
 		 String sitetitle=driver.getTitle();
 		 System.out.println(sitetitle);
          System.out.println("Hello!" +" " +  sitetitle);
 	   	 driver.close(); 
-	   	 */
+	   	
 	   	   
 	}
 
